@@ -15,7 +15,6 @@
 - **Cards**
 - **Search Result Frame**
 - **Materialized Design**
-- **Materialized Design**
 
 ### Tools Used :
 
