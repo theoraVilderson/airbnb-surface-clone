@@ -9,6 +9,9 @@
   background-color: var(--main-bg-light);
   max-width: var(--max-container-width);
   margin: 0 auto;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 .header__logo {
   fill: var(--main-color-red);
