@@ -1,0 +1,39 @@
+.dateRange {
+  height: max-content;
+  background-color: var(--main-bg-light);
+  z-index: 2;
+}
+.dateRange__content {
+  padding: 30px 20px;
+}
+.dateRange__content input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+}
+.dateRange__contentHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dateRange__contentHeader h4 {
+  margin: 0px;
+}
+.dateRange__contentHeaderIcon {
+  width: 24px;
+  height: 24px;
+}
+.dateRange__searchBtn {
+  width: 100%;
+  background-color: var(--main-color-red) !important;
+  color: white;
+}
+.rdrInputRangeInput {
+  width: 30px !important;
+  height: 30px !important;
+  line-height: 30px !important;
+  border-radius: 4px !important;
+  text-align: center !important;
+  border: solid 1px rgb(222, 231, 235) !important;
+  margin-right: 10px !important;
+  color: rgb(108, 118, 122) !important;
+}

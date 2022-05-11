@@ -1,0 +1,64 @@
+.banner {
+  background: url("https://a0.muscache.com/im/pictures/a7d80da3-d70a-4013-96e8-d3762ce81bc6.jpg?im_q=highq&im_w=1920")
+    center center;
+  height: 50vh;
+  min-height: 300px;
+  position: relative;
+}
+.banner__datePicker {
+  position: absolute;
+  z-index: 2;
+  top: 36px;
+  /* max-width: 50vw; */
+  transition: all 0.2s ease-in-out;
+}
+.banner__section--left {
+  background-color: var(--banner-bg);
+  height: 100%;
+  width: 30%;
+  min-width: 200px;
+  max-width: 500px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.banner__content {
+  padding: 40px 11%;
+  color: white;
+}
+.banner__content h5 {
+  font-size: 100%;
+}
+.banner__content h1 {
+  font-size: 200%;
+}
+.banner__leftBtn {
+  background-color: var(--main-color-red) !important;
+  color: white;
+}
+.banner__datePickerToggler {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.banner__datePickerTogglerBtn {
+  width: 100%;
+  color: var(--main-color-red);
+}
+
+@media (max-width: 634px) {
+  .banner__datePicker {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .rdrDateRangePickerWrapper {
+    margin: 0 auto;
+  }
+  .rdrDefinedRangesWrapper {
+    display: none;
+  }
+  .dateRange__contentHeader h4 {
+    font-size: 1rem;
+  }
+}

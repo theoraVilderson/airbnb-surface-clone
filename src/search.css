@@ -1,0 +1,30 @@
+.searchPage {
+  max-width: var(--max-container-width);
+  margin: 0 auto;
+  padding: 10px 50px;
+}
+.searchPage__info {
+  gap: 10px;
+}
+.searchPage__info button {
+  width: max-content;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.searchPage__searchResults {
+  padding: 10px;
+}
+
+@media (max-width: 250px) {
+  .searchPage__info h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 400px) {
+  .searchPage {
+    padding: 10px 10px;
+  }
+}
